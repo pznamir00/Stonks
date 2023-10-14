@@ -11,7 +11,7 @@ const showStonksGuy = function () {
                                                  ${arrowColor}_*
                 ${skinColor}________${bgColor}                      ${arrowColor}_*   |
               ${skinColor}/    /    \\${bgColor}                 ${arrowColor}_*       |
-             ${skinColor}/    / _   _\\${bgColor}             ${arrowColor}_*          |
+             ${skinColor}/    /      \\${bgColor}             ${arrowColor}_*          |
             ${skinColor}/    |  * | *|${bgColor}           ${arrowColor}*I            |
            ${skinColor}|     |    \\  |${bgColor}             ${arrowColor}*_          |
            ${skinColor}|     |    _| |${bgColor}               ${arrowColor}/      _  |
