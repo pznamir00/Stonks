@@ -1,4 +1,4 @@
-const showStonksGuy = function () {
+const _showStonksGuy = function () {
   const skinColor = "\x1b[38;2;255;239;184m";
   const bgColor = "\x1b[30m";
   const arrowColor = "\x1b[38;2;255;165;0m";
@@ -35,8 +35,22 @@ const showStonksGuy = function () {
         `);
 };
 
+function showStonksGuy() {
+  _showStonksGuy();
+}
+
+function showStonksGuyAsync() {
+  return new Promise((resolve, reject) => {
+    try {
+      _showStonksGuy();
+      resolve();
+    } catch (error) {
+      reject(error);
+    }
+  });
+}
+
 module.exports = {
   showStonksGuy,
+  showStonksGuyAsync,
 };
-
-showStonksGuy();
