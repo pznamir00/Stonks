@@ -29,4 +29,4 @@ await showStonksGuyAsync();
 
 # Example output
 
-![alt stonks](./assets/output.png)
+![stonks](https://raw.githubusercontent.com/pznamir00/stonks/master/assets/output.png)
